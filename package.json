@@ -1,0 +1,21 @@
+{
+  "name": "cmmc-ipaddr",
+  "version": "0.0.1",
+  "main": "watchr.js",
+  "description": "process string from openwrt /tmp/dhcp.leases file.",
+  "homepage": "http://cmmakerclub.com",
+  "author": "Nat Weerawan <nat.wrw@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmmakerclub/ip-watchr"
+  },
+  "license": "Apache 2.0",
+  "devDependencies": {},
+  "peerDependencies": {
+    "cylon": ">= 0.21.0 < 1"
+  },
+  "dependencies": {
+    "cylon": "^0.21.2",
+    "cylon-mqtt": "^0.2.0"
+  }
+}
